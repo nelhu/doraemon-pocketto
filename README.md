@@ -1,2 +1,22 @@
 # doraemon-pocketto
-funny and useful tools
+
+`doraemon-pocketto` 是个人日常创作容器，用于沉淀和管理 AI 创作过程中可复用的能力、工具配置与素材。
+
+## 目录
+
+| 目录 | 用途 |
+| --- | --- |
+| [`skills/`](skills/) | 可复用的 AI 工作流、操作规范和配套脚本 |
+| [`plugins/`](plugins/) | 本地插件及其说明、配置示例和扩展资源 |
+| [`mcps/`](mcps/) | MCP Server 的配置、接入文档和使用示例 |
+| [`assets/`](assets/) | 图片、音频、视频、字体、模板等创作素材 |
+
+具体约定见各目录中的 `README.md`。
+AI Agent 在仓库内工作时还应遵循 [`AGENTS.md`](AGENTS.md)。
+
+## 基本原则
+
+- 每项内容使用独立子目录，避免文件直接堆放在顶层。
+- README 说明用途、依赖、使用方式和来源，确保内容可复用。
+- 配置文件只保留安全示例，不提交密钥、Token 或个人隐私信息。
+- 外部素材记录来源和授权信息，避免版权信息丢失。
