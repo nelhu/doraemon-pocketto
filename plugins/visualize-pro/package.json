@@ -1,0 +1,14 @@
+{
+  "name": "visualize-pro-renderer",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "bun build src/server.mjs --target=node --outfile=mcp/server.mjs --minify",
+    "test": "node scripts/smoke.mjs"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "zod": "4.4.3"
+  }
+}

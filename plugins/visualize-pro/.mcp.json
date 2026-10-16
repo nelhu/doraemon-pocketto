@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "visualizeProRenderer": {
+      "title": "Visualize Pro Renderer",
+      "description": "Render self-contained Visualize Pro widget HTML without the bundled Visualize shell.",
+      "cwd": ".",
+      "command": "node",
+      "args": [
+        "./mcp/server.mjs"
+      ]
+    }
+  }
+}

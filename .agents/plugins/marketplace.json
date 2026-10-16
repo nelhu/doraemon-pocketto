@@ -1,0 +1,20 @@
+{
+  "name": "doraemon-pocketto",
+  "interface": {
+    "displayName": "Doraemon Pocketto"
+  },
+  "plugins": [
+    {
+      "name": "visualize-pro",
+      "source": {
+        "source": "local",
+        "path": "./plugins/visualize-pro"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "visualization"
+    }
+  ]
+}

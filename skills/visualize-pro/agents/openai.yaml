@@ -1,0 +1,7 @@
+interface:
+  display_name: "Visualize Pro"
+  short_description: "Offline visuals with a dedicated MCP widget renderer"
+  default_prompt: "Use $visualize-pro to turn this content into the clearest truthful visual and render it with Visualize Pro's own widget renderer."
+
+policy:
+  allow_implicit_invocation: true

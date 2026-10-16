@@ -1,0 +1,21 @@
+{
+  "name": "visualize-pro",
+  "version": "0.1.1+codex.20260723080822",
+  "description": "Self-contained MCP widget renderer for Visualize Pro HTML fragments.",
+  "author": {
+    "name": "xuezi"
+  },
+  "interface": {
+    "displayName": "Visualize Pro",
+    "shortDescription": "Render offline widget HTML without Visualize's CDN shell.",
+    "longDescription": "Visualize Pro renders self-contained HTML, CSS, SVG, and JavaScript through its own MCP App resource and provides a loopback preview fallback.",
+    "developerName": "xuezi",
+    "category": "Productivity",
+    "capabilities": [
+      "MCP App widget rendering",
+      "Offline loopback preview"
+    ],
+    "defaultPrompt": "Use $visualize-pro to create and render the clearest truthful visual."
+  },
+  "mcpServers": "./.mcp.json"
+}
